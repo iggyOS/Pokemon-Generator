@@ -117,5 +117,12 @@ h2 {
     margin-bottom: 10px;
   }
 
+  body {
+    border-top: 20px solid #424242;
+    border-left: 20px solid #424242; /* Add left border */
+    border-right: 20px solid #424242; /* Add right border */
+    margin: 0;
+    padding: 0;
+  }
 
 }
