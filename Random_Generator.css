@@ -1,0 +1,121 @@
+body {
+    background-color: #313131;
+    background-image: linear-gradient(to right, #424242 , #313131);
+    font-family: Calibri, sans-serif;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 3%;
+  }
+
+  h1 {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+  }
+
+  p {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+  }
+
+  .containerReplay {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+  }
+
+
+  h2 {
+    color: white;
+    font-size: 30px;
+  }
+
+
+  #pokemonButton {
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    display: inline-block;
+  }
+  
+  #pokemonButton img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    transition: transform 0.4s;
+    box-shadow: 0 15px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  #pokemonButton img:hover {
+    transform: scale(1.1);
+  }
+
+  @media only screen and (max-width: 800px) {
+    
+    h1 {
+      font-size: 45px;
+    }
+
+    p {
+      font-size: 23px;
+    }
+
+    #pokemonButton img {
+      width: 125px;
+      height: 125px;
+    }
+  }
+
+  button {
+    width: 140px;
+    height: 60px;
+    background-color: #494949;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 25px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 10px; /* Add border-radius property */
+    transition: transform 0.4s; /* Add transition property for smooth animation */
+    box-shadow: none;
+
+  }
+  
+  .replay {
+    position: absolute;
+  }
+  
+  button:hover {
+    background-color: #5f5f5f;
+    transform: scale(1.15); /* Change the size when hovered */
+    box-shadow: none
+  }
+  
+  button:active {
+    background-color: #555555;
+    color: whitesmoke;
+    transform: scale(1); /* Change the size when hovered */
+    box-shadow: none
+  }
